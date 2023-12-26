@@ -19,7 +19,7 @@ map("i", "jj", "<ESC>", opts)
 map("i", "jk", "<ESC>", opts)
 
 -- Remove search highlight
-map("n", "<Leader>h", ":nohlsearch<CR>", opts)
+map("n", "<leader>h", ":nohlsearch<CR>", opts)
 
 -- Grab text between curly braces
 map("n", "YY", "va{Vy", opts)
