@@ -3,7 +3,7 @@ return {
   enabled = true,
   config = function()
     require("base16-colorscheme").with_config({
-      telescope = false,
+      telescope = true,
       indentblankline = true,
       notify = true,
       ts_rainbow = true,

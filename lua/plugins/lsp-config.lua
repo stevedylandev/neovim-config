@@ -2,6 +2,7 @@ return {
 	{
 		"williamboman/mason.nvim",
 		lazy = false,
+		priority = 1000,
 		config = function()
 			require("mason").setup()
 		end,
@@ -14,6 +15,7 @@ return {
 					"lua_ls",
 					"tsserver",
 					"solidity",
+          "solc",
 					"html",
 					"cssls",
 					"emmet_ls",

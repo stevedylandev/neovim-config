@@ -7,6 +7,7 @@ vim.g.root_spec = { "lsp", { ".git", "lua" }, "cwd" }
 
 local opt = vim.opt
 
+vim.opt.swapfile = false
 opt.autowrite = true           -- Enable auto write
 opt.clipboard = "unnamedplus"  -- Sync with system clipboard
 opt.completeopt = "menu,menuone,noselect"
@@ -66,3 +67,5 @@ end
 
 -- Fix markdown indentation settings
 vim.g.markdown_recommended_style = 0
+vim.filetype.add({ extension = { mdx = "mdx", }, })
+vim.treesitter.language.register("markdown", "mdx")
