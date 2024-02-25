@@ -28,7 +28,7 @@ return {
           },
         },
         previewer = false,
-        -- hidden = true,
+        hidden = true,
         prompt_prefix = "   ",
         file_ignore_patterns = { "node_modules", "package-lock.json" },
         initial_mode = "insert",
