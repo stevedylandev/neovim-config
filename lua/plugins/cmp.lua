@@ -26,9 +26,6 @@ return {
 					luasnip.lsp_expand(args.body)
 				end,
 			},
-			formatting = {
-				format = require("tailwindcss-colorizer-cmp").formatter,
-			},
 			window = {
 				completion = cmp.config.window.bordered(),
 				documentaton = cmp.config.window.bordered(),
